@@ -15,7 +15,6 @@ export class SiblingServicesService {
     this.launchData.next(obj);
   }
 
-
   communicateToSpaceXLanding(msg) {
     this.landingData.next(msg);
   }

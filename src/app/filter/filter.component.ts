@@ -23,7 +23,6 @@ export class FilterComponent implements OnInit {
 
   }
 
-
   successLaunch($event) {
     debugger;
     // this.status = !this.status;

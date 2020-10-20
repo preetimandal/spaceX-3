@@ -24,6 +24,7 @@ export class SpaceXdataComponent implements OnInit {
         console.log("--m--",message);
       });
 
+
       this.sibService.landingData.subscribe(msg =>{
 
         this.spaceXData_onload = msg
